@@ -1,4 +1,4 @@
-<!--- Factory.cfc --->
+<!--- factory.cfc --->
 <cfcomponent>
 
 	<cffunction name="preHandler" access="public" returntype="void" output="false">

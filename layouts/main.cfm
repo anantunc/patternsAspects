@@ -10,7 +10,8 @@
 		<table><tr>
 			<td style="border-right: solid black 2px; padding: 15px; vertical-align:top; ">
 				<a href="index.cfm?event=factory"> Factory </a>	<br>
-				<a href="index.cfm?event=observer"> Observer </a>	
+				<a href="index.cfm?event=observer"> Observer </a> <br>
+				<a href="index.cfm?event=decorator"> Decorator </a>	<br>
 			</td>
 			<td style="padding: 15px;">
 				#renderView()#

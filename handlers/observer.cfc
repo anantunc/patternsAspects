@@ -3,6 +3,7 @@
 
 	<cffunction name="init" access="public" returntype="observer" output="false">
 		<cfscript>
+			observer = structNew();
 			observer.notify = createObject("component","model/observer/NotifyService");
 			observer.accounting = createObject("component","model/observer/AccountingService");
 			observer.display = createObject("component","model/observer/DisplayService");
