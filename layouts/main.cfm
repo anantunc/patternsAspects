@@ -6,10 +6,16 @@
 		<title>Pattern Aspects</title>
 	</head>
 
-	<body>
-		<div id="bd" class="single">
-			#renderView()#
-		</div>	
+	<body style="font-family: Verdana; font-size: 12px; line-height: 24px;">
+		<table><tr>
+			<td style="border-right: solid black 2px; padding: 15px; vertical-align:top; ">
+				<a href="index.cfm?event=factory"> Factory </a>	<br>
+				<a href="index.cfm?event=observer"> Observer </a>	
+			</td>
+			<td style="padding: 15px;">
+				#renderView()#
+			</td>
+		</tr></table>
 	</body>
 </html>
 </cfoutput>
