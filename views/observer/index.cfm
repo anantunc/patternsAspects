@@ -1,5 +1,5 @@
 <cfoutput>
-<cfif rc.event eq "observer.activateSubject">
+<cfif isDefined("rc.activateSubject")>
 	#rc.notifyMessage# <br />
 	#rc.accountingMessage# <br />
 	#rc.UIMessage# <br />
@@ -7,4 +7,5 @@
 </cfif>
 </cfoutput>
 
-<a href="index.cfm?event=observer.activateSubject">Activate the Observer</a> <br />
+<a href="index.cfm?event=observer&activateSubject=1">Activate the Observer</a> <br />
+

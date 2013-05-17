@@ -1,5 +1,5 @@
 <!--- CSVFile.cfc --->
-<cfcomponent implements="DisplayInterface">
+<cfcomponent implements="ImportInterface">
 	<cffunction name="load" returntype="string">
 		<cfargument name="filename" type="String" required="true"/>
 		<cfscript>

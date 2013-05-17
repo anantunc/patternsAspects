@@ -1,5 +1,5 @@
 <!--- ContractorDecorator.cfc --->
-<cfcomponent extends="ParentDecorator">
+<cfcomponent extends="ParentDecorator" implements="RenderInterface">
 
 	<cffunction name="getInformation" returntype="string">
   		<cfscript>
